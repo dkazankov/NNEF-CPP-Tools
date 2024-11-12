@@ -13,8 +13,8 @@ add_executable(infer infer.cpp)
 add_executable(nnef_tff_info nnef_tff_info.cpp)
 add_executable(nnef2ada nnef2ada.cpp)
 
-add_library(nnef STATIC IMPORTED)
-set_target_properties(nnef PROPERTIES
+add_library(nnef-lib STATIC IMPORTED)
+set_target_properties(nnef-lib PROPERTIES
     IMPORTED_LOCATION "../../NNEF-Tools/build/Release/nnef.lib"
     IMPORTED_LOCATION_DEBUG "../../NNEF-Tools/build/Debug/nnef_d.lib"
     IMPORTED_CONFIGURATIONS "RELEASE;DEBUG"
