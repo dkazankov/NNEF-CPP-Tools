@@ -29,6 +29,8 @@
 #include <io.h>
 #else
 #include <unistd.h>
+#define _isatty isatty
+#define _fileno fileno
 #endif
 
 
