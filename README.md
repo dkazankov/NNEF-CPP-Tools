@@ -1,3 +1,4 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 # DEPRECATED
 This repository is no longer maintained. Please use [NNEF-Tools repository](https://github.com/dkazankov/NNEF-Tools) instead.
 
